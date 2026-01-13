@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+// Si estamos importando algo que es propio de apple podemos usar
+//@import Foundation;
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface StarWartsCharacter : NSObject
 
 @end
 
-NS_ASSUME_NONNULL_END

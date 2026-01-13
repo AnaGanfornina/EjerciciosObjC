@@ -7,14 +7,20 @@
 
 #import <Foundation/Foundation.h>
 
+#import "StarWartsCharacter.h" // ponemos comillas porque es una ruta absoluta, no es de apple
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");// es el resultado de la linea de comandos. Si sale bien devuele un 0 y si sale mal devuelve algo que no es un 0
+      // Crear una instancia e inicializar una instancia
+        StarWartsCharacter * chewie = [[StarWartsCharacter alloc] init];
+        
+        //imprimir
+        NSLog(@"%@", chewie); // imprimimos el objeto de obj C
+        
+        NSLog(@"Hola %f", 3.14); // Interpolación de cadenas
+        
     }
     return 0;
 }
 
 
-//Test de commit en github
-//Test 2 de compatibilidad
