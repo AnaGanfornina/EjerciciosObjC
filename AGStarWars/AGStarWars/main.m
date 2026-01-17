@@ -19,6 +19,12 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Hola %f", 3.14); // Interpolación de cadenas
         
+        //Crear un objeto
+        
+        StarWartsCharacter * yoda = [[StarWartsCharacter alloc] initWithFirstName:@"Minch"
+                                                                        lastName:@"Yoda"
+                                                                           alias:@"Master Yoda"];
+        NSLog(@"Hola %@", yoda);
     }
     return 0;
 }
